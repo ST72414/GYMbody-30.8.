@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #afafad;
+    height: 60px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    width: 300px;
+    height: 60px;
+    margin-left: 0;
+    margin-top: 3px;
+}
+
+/* Navigace */
+nav {
+    margin-right: 30px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.menu-icon {
+    display: none;
+}
